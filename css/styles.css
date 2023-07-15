@@ -1,0 +1,234 @@
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.first_div{
+    background-color: #1F2937;
+    border-width: 2px;
+    color:#ffffff
+}
+.inner_div{
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+.list{
+    font-size: small;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin: 5px;
+}
+
+ul.list>li>a:hover{
+    background: #3cb0fd;
+}
+
+.inner_div2{
+    margin: 20px;
+    padding-bottom: 50px;
+
+}
+
+a{
+    margin: 0 5px;
+    text-decoration: none;
+}
+.poultry_image{
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.text{
+    width: 50%;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    line-height: 2;
+
+}
+
+.sign_up{
+    position: absolute;
+    right: 400px;
+    top: 310px;
+    background: #3882F6;
+    background-image: -webkit-linear-gradient(top, #3882F6, #3882F6);
+    background-image: -moz-linear-gradient(top, #3882F6, #3882F6);
+    background-image: -ms-linear-gradient(top, #3882F6, #3882F6);
+    background-image: -o-linear-gradient(top, #3882F6, #3882F6);
+    background-image: linear-gradient(to bottom, #3882F6, #3882F6);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: whitesmoke;
+    font-family: Georgia;
+    color: white;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+
+  
+  .sign_up:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+h3{
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.name{
+    display: float;
+    float: right;
+    font-size: medium;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 360px;
+}
+
+.second_div{
+    margin: 0;
+    display: flex;
+} 
+
+.second_div div a{
+    position: relative;
+    left: 190px;
+    bottom: 15px;
+    text-decoration: underline;
+
+}
+.second_div div a:hover{
+    color: #3cb0fd;
+}
+
+.broiler{
+    width: 300px;
+    height: 300px;
+}
+
+.cockerel{
+    width: 300px;
+    height: 300px;
+}
+
+.layers{
+    width: 300px;
+    height: 300px;
+}
+
+.noiler{
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    margin: 0 19px;
+}
+
+p{
+    margin: 0 0 0 30px;
+}
+
+.second_div div img:hover{
+    width: 310px;
+    height: 310px;
+    transition: 1s all 0.01s;
+}
+
+.testimony{
+    width: 70%;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.testimony_div{
+    padding-top: 40px;
+    width: 40%;
+    background-color: #e5e7eb;
+    margin: 20px 300px;
+    
+}
+
+.sign-up_div{
+    width: 40%;
+    background-color: #3882F6;
+    margin: 20px 300px;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+h4{
+    text-indent: 60%;
+    position: relative;
+    bottom: 30px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    bottom: 25px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .right_div{
+    width: 60%;
+    background-color: #1F2937;
+    margin: 20px 300px;
+    padding: 20px 0;
+    font-size: 10px;
+  }
+
+  .all_right{
+    background-color: #000000
+    display: inline-block;
+    color: white;
+  }
